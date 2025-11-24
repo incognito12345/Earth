@@ -18,7 +18,7 @@ h2{
     font-size: 30pt;
     text-align: center;
     height: 50px;
-    width: 100%;
+    width: 100vw;
     margin-top: 0px;
     top: 0px;
 }
@@ -43,7 +43,7 @@ h2{
 }
 
 .subheader{
-    width: 100%;
+    width: 100vw;
     height: 40px;
     background-color: darkgoldenrod;
     text-align: center;
@@ -187,7 +187,7 @@ button{
 }
 
 footer{
-    width: 100%;
+    width: 100vw;
     background-color: olive;
     text-align: center;
 }

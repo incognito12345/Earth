@@ -1,20 +1,20 @@
 @media only screen and (max-width: 600px)
 {
-  .header {width: 600px;}
+  .header {width: 100vw;}
 }
 @media only screen and (min-width: 600px)
 {
-  .header {width: 100%}
+  .header {width: 100vw;}}
 }
 @media only screen and (max-width: 768px)
 {
-  .header {width: 768px;}
+  .header {width: 100vw;}}
 }
 @media only screen and (max-width: 992px)
 {
-  .header {width: 992px;}
+  .header {width: 100vw;}}
 }
 @media only screen and (max-width: 1200px)
 {
-  .header {width: 1200px;}
+  .header {width: 100vw;}}
 }

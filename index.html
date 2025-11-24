@@ -1,15 +1,83 @@
-<!DOCYTPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>New Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Home</title>
+  
+  <link rel="stylesheet" href="style.css">
 </head>
-<style>
-#div1 {
-}
-</style>
-<body>
-<div id="div1">Hello</div>
-<script>
-</script>
+
+<body onload="Onload()">
+  <header class="header">Earth</header>
+  <div class="subheader"><a href="/index.html">Home |</a> <a href="/News.html"> News |</a> <a href="/Projects.html"> Projects</a></div>
+  
+  <div class="floatimg"> <img src="Images/ChargingEnemies.png" alt="ChargingEnemies.png"></div>
+  
+  <div id="popupDiv" class="popup openPopup"><span class="closeBtn" id="X" onclick="checkCsAndCloseBox('X','popupDiv', 'openPopup', 'closePopup', 2000, 'ClosedPopup', 'popupDiv', 'openPopup')">X</span><a target="_blank" href="https://incognito12345.itch.io/earth">Download Earth Now!</a></div>
+  
+ <div id="cookie" class="cookies openCookies"><h2>🍪 Cookies 🍪</h2> Here at EarthGaming LTD, we adhere to a strict cookie policy that allows us to temporarily store certain information on your device to help make your experience on our website as smooth and enjoyable as possible.
+  <br />
+  <br />
+  By clicking "Accept", you permit us to track your activity on our site so that we may have the capability to enact various central features, all of which we use to add to the user-friendly environment on our platform. These features include the disabling of certain notifications from appearing multiple consecutive times as you navigate the numerous pages of the site.
+  <br />
+  <br />
+  Please note that by refusing these cookies, some aspects of this website may not work as expected nor behave in the desired manner. It is prudent that you take this consequence into consideration when choosing to accept or decline cookies.
+  <br />
+  <br />
+  Under our policy, we do not as of yet, share or as a result, stand to profit from information gathered on your visit to this platform.
+  <br />
+  <br />
+  As previously mentioned, all information gathered is only temporary and will expire within 15 minutes. Exceeding such time, all gathered cookies on you device by this site will be <b>Permanently Deleted.</b>
+  <br /><br />
+  <button id="accept" type="submit" onclick="checkCsAndCloseBox('', 'cookie', 'OpenCookies', 'CloseCookies', 3000, 'ClosedCookies', 'cookie', 'openCookies')">Accept</button>
+  
+  <button id="moreOptions" type="submit" onclick="reveal('moreOptionsDiv')">More Options</button></div>
+  
+  <div id="moreOptionsDiv" class="cookies" style="visibility: hidden;">
+    <br />
+    <h2>More options:</h2>
+    <br />
+    <br />
+    Welcome to the more options section! This is where you can accurately adjust which cookies are permitted to operate from this window.
+    <br />
+    <br />
+    <input type="checkbox" name="Checkbox" id="Checkbox" value="Popup Cookies" checked/>
+    <label for="PopupCookies">Enable Cookies</label>
+    <!--<p style="font-size: 8pt;">(Pssssst! This button doesn't currently do anything)</p>-->
+    <br />
+    <br />
+    <br />
+    <button type="submit" onclick="document.getElementById('moreOptionsDiv').style.visibility = 'hidden';">Back</button>
+    <button type="submit" onclick="Confirm('Checkbox', 'cookie', 'OpenCookies', 'CloseCookies', 3000)">Confirm</button>
+  </div>
+  
+    <div class="TextBox">Welcome to the home of EarthGaming LTD ©®™! This is the center of all things rock, boulder and adventure! Here, you will find all recent updates and references. Links to the full project and dev-releaces will also become available.</div>
+    
+      <div class="floatimg"> <img src="Images/Bending1.png" alt="Bending1.png"></div>
+      
+      <div class="TextBox"><h2>A First Encounter</h2>For those who don't know, Earth is an intuitive and highly unique indie game project which started out as a small demonstration of rock manipulation in Unity. Due to it's immense popularity and roaring success it grew into a full blown project.</div> 
+      
+      <div class="TextBox"><br />What started as a dismissive cub, came to be a ferocious lion - leading to the construction of the project undergoing multiple years of development. Remaining to this day, constantly improving and expanding. It was not until recently when at last, hints  of the full game release began to show. <br /><br /> </div>
+      
+       <div class="floatimg"> <img src="/Images/Betrayed.png" alt="Bending1.png"></div>
+      
+      <div class="TextBox">Hidden in the shadows for so long, Earth came to the brink of being all but forgotten... it was at this critical moment when an ingenious software engineer and a team of modeling experts decided to combine their efforts and revive this hidden gem. </div>
+      
+      <div class="TextBox">Thanks to their outstanding performance, the dream team have managed to achieve what would appear to be seemingly impossible: releasing the first samples of the game to come.</div>
+        
+        <div class="floatimg"> <img src="Images/WalkingHuman.png" alt="WalkingHuman.png"></div>
+        <div class="TextBox"><h2>Brilliant</h2>At this stage, you may be wondering what exactly is all the commotion about? There are so many other good and pioneering games out there, what makes this one do different? Well my friend, you have much to learn. <br /><br />What makes Earth so unique are it's one-of-a-kind mechanics and state-of-the-art gameplay so loved by all and highly praised amongst the testing staff at EarthGaming LTD ©®™. 
+        <br /><br />
+        The implementation is simplicity itself but the results astounding. However, one may not properly refer to a game as brilliant without astonishing graphics and visuals which truly make the overall experience magical. This game really is a unsung wonder. <br /><br />It is at this moment when you may be itching to grab a copy of this game for yourself. Rest assured, you won't have to wait long... as in the words of the lead developer, </div>
+        
+        <div class="quote">
+        	<i> "We hope to finalize a full working version of the game in the coming months. Unfortunately, due to a lack of funding it will certainly be a challenge to gift the world this masterpiece. We have henceforth decided to unlease the game in smaller demos to build much needed support and to secure the funds necessary to provide the full game."</i></div>
+        <footer>
+           <a href="https://incognito12345.itch.io/earth">Download Free Demo</a>
+        </footer>
+  <script src="main.js"></script>
 </body>
 </html>

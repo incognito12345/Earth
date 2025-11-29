@@ -62,7 +62,7 @@ z-index: -1;
 }
 .TextBox{
     width: 364px;
-    margin: 10px;
+    margin: auto;
     padding: 5px;
     background-color: forestgreen;
     border-radius: 5px;

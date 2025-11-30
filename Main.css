@@ -35,7 +35,8 @@ h2{
 .floatimg{
     background-color: none;
     border-radius: 5px;
-    margin: 10px;
+    //margin: 10px;
+    margin: auto;
 }
 
 .floatimg img{
@@ -49,6 +50,7 @@ h2{
     height: 40px;
     background-color: darkgoldenrod;
     text-align: center;
+    margin: auto;
     margin-top: 0px;
     padding-top: 10px;
     position: sticky;
@@ -71,7 +73,8 @@ z-index: -1;
 
 .TextBox-lv2{
     width: 300px;
-    margin: 10px;
+    //margin: 10px;
+    margin: auto;
     padding: 5px;
     background-color: #9BA65C;
     border-radius: 5px;
@@ -85,7 +88,8 @@ z-index: -1;
     background-color: none;
     //opacity: 0.9;
     color: #404715;
-    margin: 10px;
+    //margin: 10px;
+    margin: auto;
     padding: 5px;
     background-color: #9BA65C;
     border-radius: 5px;

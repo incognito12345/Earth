@@ -47,6 +47,8 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .subheader{
@@ -74,6 +76,8 @@ z-index: -1;
     background-color: forestgreen;
     border-radius: 5px;
     text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .TextBox-lv2{
@@ -85,6 +89,8 @@ z-index: -1;
     border-radius: 5px;
     text-align: justify;
     float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .quote{
@@ -99,6 +105,8 @@ z-index: -1;
     background-color: #9BA65C;
     border-radius: 5px;
     text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .sideBar{

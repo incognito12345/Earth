@@ -165,7 +165,7 @@ a{
 
 .cookies{
     width: 90%;
-    height: 90%;
+    height: 600px;
     position: fixed;
     top: 40px;
     right: 13.5px;
@@ -237,11 +237,11 @@ footer a{
     0% {visibility: none; right: -360px; top: 70px; height: 5px;}
     40% {right: 0px; top: 70px; visibility: block;}
     60% {height: 3px; right: 13.5px;}
-    100% {height: 700px;}
+    100% {height: 600px;}
 }
 
 @keyframes CloseCookies{
-    0% {visibility: block; height: 700px; top: 70px; right: 13.5px;}
+    0% {visibility: block; height: 600px; top: 70px; right: 13.5px;}
     40% {height: 3px;}
     60% {height: 3px; right: 0px; visibility: none;}
     100% {height: 3px; visibility: none; right: -360px;}

@@ -7,14 +7,16 @@
 {
   .header {width: 100vw;}
   .subheader {width: 100vw;}
-}
+}*/
 
 @media only screen and (min-width: 768px)
 {
-  .header {width: 100vw;}
-  .subheader {width: 100vw;}
+  //.header {width: 100vw;}
+  //.subheader {width: 100vw;}
+  .sidebar {display: none;}
+  textbox-lv2 {margin: auto;}
 }
-@media only screen and (min-width: 992px)
+/*@media only screen and (min-width: 992px)
 {
   .header {width: 100vw;}
   .subheader {width: 100vw;}

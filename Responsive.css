@@ -13,20 +13,20 @@
 {
   //.header {width: 100vw;}
   //.subheader {width: 100vw;}
-  .sidebar {display: none;}
+  .sidebar {visibility: none;}
   .TextBox-lv2 {margin: auto;}
 }
 @media only screen and (min-width: 992px)
 {
   .header {width: 100vw;}
   .subheader {width: 100vw;}
-  .sidebar {display: none;}
+  .sidebar {visibility: none;}
   .TextBox-lv2 {margin: auto;}
 }
 @media only screen and (min-width: 1200px)
 {
   .header {width: 100vw;}
   .subheader {width: 100vw;}
-  .sidebar {display: none;}
+  .sidebar {visibility: none;}
   .TextBox-lv2 {margin: auto;}
 }

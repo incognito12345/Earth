@@ -88,7 +88,7 @@ z-index: -1;
     background-color: #9BA65C;
     border-radius: 5px;
     text-align: justify;
-    float: right;
+    //float: right;
     margin-top: 10px;
     margin-bottom: 10px;
 }

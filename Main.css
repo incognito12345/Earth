@@ -10,7 +10,10 @@ body {
 }
 
 video {
-    margin: auto;
+    //margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h2{

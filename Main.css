@@ -9,6 +9,10 @@ body {
     background-color: lightgreen;
 }
 
+video {
+    margin: auto;
+}
+
 h2{
     text-align: center;
 }

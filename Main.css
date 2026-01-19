@@ -78,6 +78,7 @@ z-index: -1;
 }
 
 iframe{
+    display: block;
     width: 364px;
     margin-left: auto;
     margin-right: auto;

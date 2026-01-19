@@ -76,6 +76,16 @@ h2{
 .frontText{
 z-index: -1;
 }
+
+iframe{
+    width: 364px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .TextBox{
     width: 364px;
     margin: auto;
